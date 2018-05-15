@@ -22,3 +22,15 @@ pip install whl文件的完整路径名
 pip install Scrapy
 `
 - 即可成功
+
+
+#### 执行爬虫的时候`scrapy crawl 爬虫名`提示`ImportError: No module named 'win32api'`
+
+##### 解决方案
+
+`
+解决办法：安装pywin32
+地址：https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/
+`
+
+- 安装成功之后重试scrapy crawl 爬虫名即可成功
